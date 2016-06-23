@@ -1,7 +1,10 @@
 nrf51-short-pulse
 =================
 
-This project sets up an 8 MHz clock on a regular GPIO (by default LED_1), using a 16 MHz timer, GPIOTE and the PPI. 
+A simple project showing how to use the a TIMER and GPIOTE, connected with the PPI to generate a short pulse.
+The pulse width can be as short as 62.5 ns or any positive multiple thereof. Verified on oscilloscope.
+
+Derived from NordicSemiconductor/nrf51-8-mhz-gpio-clock example. (Forked on GitHub.)
 
 Requirements
 ------------
